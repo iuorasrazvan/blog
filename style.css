@@ -1,0 +1,975 @@
+/* 
+Theme Name: Iuoras Razvan Personal Blog 
+Theme Uri: http://localhost/iuorasrazvan
+Author: iuorasrazvan 
+AUthor Uri: http://www.facebook/iuoras.razvan
+Description: Personal Blog for Wordpress developmnet 
+Version: 1.0.0
+Licence: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* begin of main containers */
+
+body  { 
+	
+
+}
+
+.wrapper {
+	
+	position:fixed; 
+	width:100%; 
+	height:95%; 
+	top: 5%;
+	left: 0; 
+	right:0;
+	bottom:0; 
+	overflow:auto; 
+	
+}
+
+#header-content-sidebar-wrapper {
+	border:1px solid black; 
+	width:80%; 
+	height:94%; 
+	padding-bottom: 0;
+	margin-left:20%;  	
+	overflow:auto; 
+	
+}
+
+
+#irc-content {
+	float:left; 
+	width: 80%;
+	height: 875px; 
+	padding:auto; 
+	
+}
+
+#irc-page {
+	
+	float:left; 
+	width: 100%;
+	height: auto; 
+	padding:5%; 
+	
+	
+}
+
+
+
+#irc-content-post {
+	float:left; 
+	width: 100%;
+	height:auto; 
+	padding:10px; 
+	
+}
+
+
+
+
+#irc-content-gardening{
+	float:left; 
+	width: 100%;
+	height:auto; 
+	padding:10px; 
+	
+}
+
+#irc-content-animal{
+	float:left; 
+	width: 100%;
+	height:auto; 
+	padding:10px; 
+	
+}
+
+#no-posts {
+	font-size:30px;
+	background:orange; 
+	text-align:center; 
+}
+
+
+
+.navigation {
+
+    margin:5px; 
+	
+    font-size:18px;  
+	height:80px; 
+	
+	
+}
+.alignleft  {
+	
+	float:left; 
+	
+}
+
+.alignright {
+	
+	float:right
+	
+	
+}
+
+
+.navigation span {
+	
+	
+	display:inline-block;
+	width:48%;
+	height:80px; 
+	margin-top:10px;
+	margin-bottom:10px; 
+	padding-top:25px;
+	padding-bottom:25px;  
+	background:rgb(178,192,196); 
+	border-radius:15px; 
+	text-align:center; 
+	
+} 
+
+
+.navigation   a {
+	
+	text-decoration:none; 
+} 
+
+
+
+
+/* end of main containers */ 
+
+
+/* begin header-left  */ 
+
+#header-left  {
+	
+	position:fixed; 
+	width:20%; 
+	height:95%; 	
+	overflow:auto; 
+	
+}
+
+#header-img {
+	
+ 	display:block; 
+	width:100%; 
+	height: 100%; 
+	padding: 5px; 
+	text-align:center; 
+	
+}
+
+#header-img img.custom-logo {
+	
+	display:block; 
+	margin:auto; 
+} 
+
+#header-img  h2  {
+	
+	display: inline-block;
+	margin: 0; 
+	background:rgb(7,153,128); 
+
+	
+}
+
+#header-img h2  a {
+	display:inline-block; 
+	padding:5px; 
+	text-decoration: none; 
+	
+}
+
+#header-img h2  a:hover {
+	
+	
+	background:lightgrey; 
+	
+}
+
+#header-img .description {
+   
+	display:inline-block; 
+	height: 40px; 
+	padding:0 ; 
+	border: 2px solid brown; 
+	background: rgb(239, 148, 210); 
+}
+
+#header-img .description:hover {
+   
+	background: lightgrey; 
+
+	
+}
+
+#header-img .description h3 {
+	
+	display: inline-block; 
+	padding: 5px; 
+    margin:0 ; 
+		
+}
+#header-img .search-form {
+	font-size:25px; 
+}
+
+
+
+#sidebar-left  {
+	clear:left; 
+	margin:0; 
+	padding:0; 
+	text-align:left; 
+  
+	
+}
+
+#sidebar-left  ul {
+
+	list-style-type: square; 
+	
+}
+
+
+
+#sidebar-left h2   {
+	
+	
+	height:auto; 
+	
+	margin-left:20%; 
+
+	
+	
+}
+
+#sidebar-left h2 a {
+	display:inline-block; 
+	height:auto; 
+	margin:2px; 
+	padding:5px; 
+	background-color:rgb(57,186, 64);
+	
+	
+	
+}
+
+#sidebar-left h2 a:hover {
+	
+	
+	background:rgb(193, 110, 132); 
+}
+
+
+
+#sidebar-left .rsswidget {
+	
+	text-decoration:none; 
+}
+
+#sidebar-left ul li {
+    
+	padding:5px; 
+	margin:5px; 
+}
+
+
+#sidebar-left ul li a {
+	display:inline-block;
+	padding:7px; 
+	margin:3px; 
+	color:black; 
+	background-color:rgb(219,131,154); 
+}
+
+#sidebar-left ul li a:hover {
+	
+	padding:7px; 
+	background: violet; 
+}
+#sidebar-left ul li span {
+	
+	display:inline-block; 
+	background:rgb(85,204,196); 
+	padding:5px; 
+	border:2px solid red; 
+}
+
+#sidebar-left ul li span:hover {
+	background:rgb(139,209,131); 
+	
+}
+
+/* end of header left */ 
+
+
+/* begin of header top */ 
+
+#header-top {
+	
+	width:100%; 
+	height:auto; 
+
+	
+}
+
+#sidebar-top   {
+
+	margin: 0; 
+	padding: 0; 
+		
+}
+#sidebar-top  ul  {
+
+	margin: 0; 
+	padding: 0; 
+		
+}
+#sidebar-top > li:nth-child(1) {
+	float:left; 
+	width:15%; 
+	
+	
+}
+#sidebar-top > li:nth-child(2) {
+	float:left; 
+	width:20%; 
+	
+}
+#sidebar-top > li:nth-child(3) {
+	float:left; 
+	width:50%; 
+	
+}
+#sidebar-top > li:nth-child(4) {
+	float:left; 
+	width:15%; 
+	
+}
+
+#sidebar-top  > li {
+	
+	padding:5px; 
+	
+}
+
+#sidebar-top  li {
+	
+	list-style: none; 
+	display:inline-block; 
+
+}
+
+
+
+#sidebar-top li h2 {
+
+	background:rgb(214,192,204); 
+	text-align:center; 
+	
+}
+
+#sidebar-top  a {
+
+	text-decoration:none; 
+		
+}
+.page_item {
+	
+	padding:10px; 
+}
+.page_item:hover {
+	
+	background:rgb(234,231,143); 
+}
+.page_item a {
+	text-decoration:none; 
+	padding:5px; 
+	background:rgb(219,179,179); 
+	font-size:20px; 
+}
+
+#irc-postings ul li {
+	padding:10px;
+	
+	
+}
+
+#irc-postings ul li:hover {
+	
+	background:rgb(234,231,143); 
+	
+}
+
+#irc-postings ul li a {
+	
+	font-size:20px;
+	padding:5px; 
+	text-decoration: none; 
+	background: rgb(219,111,155); 
+	
+}
+
+
+
+#irc-tax ul {
+	
+	margin:0 ; 
+	padding:0; 
+	display:inline-block; 
+		
+	
+}
+
+#irc-tax ul ul {
+	
+	margin-top:-2px; 
+	margin-bottom:-2px; 
+	padding:0; 
+	display:inline-block; 
+
+}
+
+
+#irc-tax  > ul > li  {
+	
+	display:inline-block; 
+	margin:2px; 
+	
+	font-size:20px; 	
+	background:rgb(242,232,232); 
+	
+}
+
+#irc-tax ul li h3  {
+	margin-top: 0; 
+	margin-bottom:0;
+	padding:5px; 
+	display:inline-block; 
+	
+	background: grey; 
+	
+}
+
+#irc-tax  ul ul li {
+	margin:5px; 
+	
+}
+
+.cat-item  a {
+	
+	padding: 5px; 
+	font-size:20px; 
+	background: rgb(188,167,167); 
+}
+
+.cat-item  a:hover {
+	color:white; 
+	background: rgb(89, 79, 79); 
+}
+
+
+.cat-item .cat-item a  {
+	
+	padding:2px; 
+	font-size: 17px; 
+	background:rgb(198, 188, 188);
+}
+
+.cat-item .cat-item a:hover  {
+	color:white; 
+	background: rgb(89, 79, 79); 
+}
+
+.cat-item-none  {
+	padding: 5px; 
+	font-size:20px; 
+	background: rgb(188,167,167); 
+}
+
+#sidebar-top .widget_meta ul li {
+	
+	padding:10px; 
+	
+}
+
+#sidebar-top .widget_meta  ul li:hover  {
+	background:rgb(234,231,143); 
+	
+}
+
+#sidebar-top .widget_meta ul li a {
+	
+	font-size:20px;
+	text-decoration:none;
+	background: rgb(204, 179, 195); 
+	padding:5px; 
+}
+
+
+/* end of header top */ 
+
+
+/* begin of sidebar */
+
+#irc-sidebar {
+	
+	float:left; 
+	width: 20%; 
+	height:auto; 
+	
+}
+
+#irc-sidebar ul  {
+	
+	margin:0;
+	padding:15px; 
+	
+}
+.sidebar-post {
+	background: rgb(198, 186, 194)
+}
+.sidebar-gardening {
+	background: rgb(161, 232, 150); 
+}
+
+.sidebar-animal_keeping {
+	background:rgb(242, 217, 33); 
+}
+
+
+#irc-sidebar  li {
+	
+	list-style: none; 
+	
+}
+
+
+/*end of sidebar */ 
+
+
+/*begin of footer */ 
+
+#irc-footer {
+	
+	position: fixed; 
+	width:80%; 
+	height:6%; 
+	padding: 10px; 	
+	margin-left:20%; 	
+	text-align:center; 
+
+	background: lightgrey; 
+	
+}
+
+/* end of footer */ 
+
+
+/* begin stylying the posts */ 
+
+
+.hentry  {
+	
+	float:left; 
+	width: 25%; 
+	height: 50%; 
+	overflow:auto; 
+	text-align:center; 
+
+	
+}
+.post {
+	background:rgb(183, 181, 167);
+	border:3px solid rgb(59, 66, 59); 
+	
+}
+
+.gardening {
+	
+	background: rgb(60, 163, 86); 
+	border:2px solid rgb(12, 56, 6);  
+}
+.animal_keeping {
+	
+	background:rgb(206, 195, 72);
+	border:2px solid rgb(124, 102, 19); 	
+	
+}
+
+.hentry h3 {
+	margin-top:0 ; 
+	padding:5px; 
+	background:rgba(252,155,12, 0.5); 
+}
+
+.hentry h3 a {
+	text-decoration:none; 
+	
+
+}
+.hentry  p {
+	font-size:16px; 
+}
+
+.hentry small {
+	
+	
+	left:5px; 
+	right:5px; 
+	background:lightgrey; 
+}
+
+.hentry div{
+	
+	display:inline-block; 
+	width:90%; 
+	background:lightgrey; 
+}
+
+.hentry span {
+	display:inline-block; 
+	width:90%; 
+	margin-top:20px; 
+	background:pink; 
+}
+#irc-content .hentry  .wp-caption    {
+	display:none; 
+}
+
+
+/* end of styling the posts */ 
+
+
+/* begin styling individual post */ 
+
+#irc-content-post img {
+	
+	float:left; 
+		
+}
+
+#irc-content-post .with-img{	
+	
+	display:inline-block; 
+	height:125px; 
+	width: 640px; 
+	margin-top: 0px; 
+	margin-bottom:0 ; 
+	margin-left:5px; 
+	
+    font-size:28px; 
+	font-style:italic; 
+	
+
+	border-radius:10px; 
+
+	
+	
+}
+
+#irc-content-post .without-img{	
+
+	height:60px; 
+	margin-top: 0px; 
+	margin-bottom:0 ; 
+	margin-left:5px; 
+	padding: 10px; 
+    font-size:30px; 
+	text-align:center; 
+	border:2px solid red; 
+	border-radius:10px; 
+
+	
+	
+}
+
+
+
+#irc-post-title {
+	
+	background:rgb(186, 137, 181); 
+	
+}
+#irc-content-post #irc-post-date { 	
+	background:rgb(178, 164, 177); 
+	height:50px; 
+}
+#irc-content-post #irc-post-cat {
+	
+	font-size:20px; 
+	background: rgb(239, 222, 228); 
+}
+
+
+#irc-content-post .raw-content-post p {
+	float:left; 
+	font-size:25px; 
+	background: rgba(181, 84, 216, 0.5)
+}
+
+
+
+/* end of individual post */ 
+
+
+
+/* begin styling individual gardening */ 
+
+#irc-content-gardening img {
+	
+	float:left; 
+		
+}
+
+#irc-content-gardening .with-img{	
+	
+	display:inline-block; 
+	height:125px; 
+	width: 640px; 
+	margin-top: 0px; 
+	margin-bottom:0 ; 
+	margin-left:5px; 
+	
+    font-size:20px; 
+	border-radius:10px; 
+
+}
+
+#irc-content-gardening .without-img{	
+	display:inline-block;
+	height:125px; 
+	margin-top: 0px; 
+	margin-bottom:0 ; 
+	margin-left:5px; 
+	padding: 10px; 
+    font-size:20px; 
+	text-align:center; 
+	border-radius:10px; 
+	
+}
+
+#irc-gardening-title {
+	
+	background:rgb(21, 89, 23); 
+	color:white; 
+	
+}
+#irc-content-gardening #irc-gardening-date {
+	
+	background:rgb(28, 130, 31); 
+	height:50px; 
+	color:white; 
+}
+#irc-gardening-cat {
+	
+	background:rgb(38, 175, 43); 
+}
+
+#irc-content-gardening .raw-content-gardening  {
+	padding:5px; 
+	font-size:25px; 
+	border:2px solid red; 
+	background: rgba(67, 198, 115, 0.5);
+}
+
+/* end of individual gardening */ 
+
+
+
+/* begin styling individual animal */ 
+
+#irc-content-animal img {
+	
+	float:left; 
+	
+	
+}
+
+#irc-content-animal .with-img{	
+	
+	display:inline-block; 
+	height:125px; 
+	width: 640px; 
+	margin-top: 0px; 
+	margin-bottom:0 ; 
+	margin-left:5px; 	
+    font-size:30px; 
+	border-radius:10px; 
+
+}
+
+#irc-content-animal .without-img{	
+
+	height:60px; 
+	margin-top: 0; 
+	margin-bottom:0 ; 
+	margin-left:5px; 
+	padding: 10px; 
+    font-size:30px; 
+	text-align:center; 
+	border-radius:10px; 
+	
+}
+
+#irc-animal-title  {
+	
+	color:white; 
+	background:rgb(99, 97, 8); 
+	
+}
+#irc-content-animal #irc-animal-date {
+	
+	background:rgb(160, 158, 22); 
+	height:50px; 
+}
+#irc-content-animal #irc-animal-cat {
+	
+	background:rgb(209, 206, 43); 
+	font-size:20px; 
+}
+
+#irc-content-animal .raw-content-animal p {
+	float:left; 
+	font-size:25px; 
+	background: rgba(218, 226, 140,0.5);
+}
+
+/* end of individual gardening */ 
+
+/* begin of styling images */ 
+
+.wp-caption {
+	
+	margin:0px; 
+	margin-top:20px; 
+	margin-right:3px; 
+	background:rgb(199, 209, 214); 
+	font-size:20px; 
+	text-align:center; 
+	
+}
+.wp-caption a img {
+	display:inline-block; 
+	padding:4px; 
+}
+
+/* end styling images */  
+
+
+
+/* begin comments style */ 
+
+#irc-comment-popup {
+	dispaly:inline-block; 
+	margin-bottom:7px; 
+	
+	
+	
+}
+#irc-comment-popup  a {
+	padding:5px; 
+	font-size:22px;  
+	text-decoration:none;
+	background:lightgrey;
+	
+	
+}
+
+#irc-content-post #respond, #irc-content-gardening #respond, #irc-content-animal #respond{
+	clear:left; 
+	display:inline-block;
+	width:100%; 
+	font-size:25px; 
+	margin-top:10px; 
+	background:rgb(171, 176, 178); 
+}
+
+.thread-even  {
+	background:#cddbc0; 
+	border:2px solid black; 
+	margin: 5px; 
+	border-radius:0 30px 30px 30px; 
+	padding:20px; 
+}
+
+.depth-2 {
+	
+	background: #b1c1a2;
+	margin:5px; 
+	border: 2px solid black; 
+	border-radius:0 20px 20px 20px; 
+	padding:20px; 
+}
+
+.depth-3 {
+	
+	background:lightblue; 
+	margin:5px; 
+	border: 2px solid black; 
+}
+
+.depth-4 {
+	
+	background:green; 
+	margin:5px; 
+	border: 2px solid black; 
+}
+
+
+.thread-odd {
+	background:#515b48; 
+	border-radius:0 30px 30px 30px; 
+	border:2px solid black; 
+	padding:20px; 
+}
+
+/* end of comments style */ 
+
+
+/* begin  styling static page */ 
+
+
+#irc-page h2  { 
+	background: lightblue; 
+	text-align:center; 
+}
+
+#irc-page p {
+	
+	font-size:20px; 
+	background:violet; 
+}
+
+
+/* end of styling static page */  
+
+/*begin of image style */ 
+
+#irc-img img  {
+	
+	display:inline-block;
+	margin-left:10%; 
+}
+
+
+/*end of image style */  
+
+
+
+
