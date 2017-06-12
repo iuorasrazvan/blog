@@ -55,10 +55,6 @@
 									if(is_active_sidebar('sidebar-left-posts')): 
 									
 										dynamic_sidebar('sidebar-left-posts'); 
-									else:
-										
-										echo '<h2>No '.$post_type.' posts </h2>'; 
-										
 									endif; 
 									
 									break; 
@@ -67,29 +63,21 @@
 								
 									if(is_active_sidebar('sidebar-left-gardenings')): dynamic_sidebar('sidebar-left-gardenings'); 
 									
-									else:
-										
-										echo '<h2>No '.$post_type.' posts</h2>'; 
-										
-									endif;  
+									endif; 
 									break; 
 									
 								case 'animal_keeping' : 
 							
 								if(is_active_sidebar('sidebar-left-animals')): dynamic_sidebar('sidebar-left-animals'); 
 								
-								else:
-									
-									echo '<h2>No animal keeping posts</h2>'; 
+								
 									
 								endif;  
 								break; 
 								
 								default: 
 									if(is_active_sidebar('sidebar-left-posts')): dynamic_sidebar('sidebar-left-posts'); 
-									else:
-										
-										echo '<h2>No posts </h2>'; 
+						
 										
 									endif; 
 
@@ -98,6 +86,8 @@
 						
 						
 						?>
+						
+					
 						
 					</ul>
 					

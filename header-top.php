@@ -4,14 +4,15 @@
 	
 
 		<ul id="sidebar-top"> 
-		   
-			
+		 
 			<?php 
 			
-				if(is_active_sidebar('sidebar-pages')) dynamic_sidebar ('sidebar-pages'); 
+				//if(is_active_sidebar('sidebar-pages')) dynamic_sidebar ('sidebar-pages'); 
+				wp_list_pages('title_li=<h2>Pages</h2>'); 
 				
 			
 			?>
+		
 			
 			<li id="irc-postings">
 				<h2>Choose an type of post</h2> 
@@ -116,7 +117,7 @@
 			<?php if (is_active_sidebar('sidebar-meta')) dynamic_sidebar('sidebar-meta'); ?> 
 			
 			
-		
+			<?php echo  wp_register ();?> 
 			
 				
 			

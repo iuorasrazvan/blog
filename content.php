@@ -2,7 +2,7 @@
 <div id="irc-content"> 
 <?php 
 	
-	
+		
 	if (have_posts()) { 
 		$post_type=get_post_type(); 
 	

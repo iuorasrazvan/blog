@@ -84,7 +84,6 @@
 		register_sidebar (array('name'=>'Sidebar left posts','id'=>'sidebar-left-posts'));
 		register_sidebar (array('name'=>'Sidebar left gardenings', 'id'=>'sidebar-left-gardenings'));
 		register_sidebar (array('name'=>'Sidebar left animal keeping','id'=>'sidebar-left-animals')); 
-		register_sidebar (array('name'=>'Sidebar pages','id'=>'sidebar-pages')); 
 		register_sidebar (array('name'=>'Sidebar meta','id'=>'sidebar-meta')); 
 		register_sidebar (array('name'=>'Sidebar right posts','id'=>'sidebar-right-posts')); 
 		register_sidebar (array('name'=>'Sidebar right gardenings','id'=>'sidebar-right-gardenings')); 
